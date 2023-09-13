@@ -1,0 +1,369 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+:root {
+    --main-defect-color: rgb(8, 32, 32);
+    background-color: rgb(241, 248, 244);
+}
+
+
+
+html {
+    color: #222;
+
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.slider {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slide {
+    display: none;
+}
+
+
+
+.logos.columns {
+    text-align: center;
+}
+
+.logos.columns img {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #000 !important;
+}
+
+.servicios {
+    background-color: rgb(106, 205, 174) !important;
+}
+
+.servicios h2 {
+    color: white;
+}
+
+header a.inicio {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+header nav a,
+header nav a:hover {
+    color: #fff;
+}
+
+section.destacada {
+    position: relative;
+}
+
+.dropdown a {
+    z-index: 100;
+}
+
+section.contacto {
+    background-color: rgb(8, 32, 32) !important;
+
+}
+
+section.contacto h2 {
+    color: white !important;
+}
+
+section.destacada .contenido {
+    top: 35%;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 20;
+}
+
+.top-bar-section ul li>a:hover {
+    background-color: rgb(13, 57, 57) !important;
+}
+
+section.destacada .contenido h1 {
+    padding: 30px 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgb(45, 64, 23, 0.2);
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* Media queries para ajustar los estilos en función del tamaño de la pantalla */
+@media (max-width: 768px) {
+    section.destacada .contenido h1 {
+        font-size: 4vw;
+    }
+
+    section.destacada .contenido {
+        top: 30%;
+
+    }
+}
+
+@media (max-width: 480px) {
+    section.destacada .contenido h1 {
+        font-size: 3vw;
+    }
+}
+
+section.agencia {
+    background-color: #08d692;
+    padding: 10px;
+}
+
+section.agencia .borde {
+    border: 1px solid #126521;
+    background-color: #a8f9db;
+}
+
+section.agencia p {
+    margin-bottom: 40px;
+}
+
+
+section.servicios {
+    background-color: #ebeeed;
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    padding-top: 30px;
+}
+
+section.servicios small {
+    font-style: italic;
+}
+
+
+section.contacto {
+    background-color: #4f5962;
+    padding: 10px;
+    color: #fff;
+}
+
+section.contacto .borde {
+    border: 1px solid #697279;
+}
+
+section.contacto .button {
+    background-color: #67727c;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px 50px;
+}
+
+
+
+footer {
+    background-color: #2d3235;
+    padding-top: 30px;
+}
+
+footer nav a,
+footer nav a:hover {
+    color: #fff;
+}
+
+footer hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #595d60;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+footer p {
+    color: #fff;
+}
+
+
+
+
+section.informacion {
+    padding: 30px 0;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
